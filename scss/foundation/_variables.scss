@@ -6,6 +6,7 @@ $main_bg: #FFFDFA;
 $main_text: #3C2A10;
 $footer_bg: #9D8670;
 
-p {
-    color: #3C2A10;
-}
+$breakpoints: (
+    tab: 'screen and (min-width: 600px)',//スマホファーストで書くときはmin-width
+    pc: 'screen and (min-width: 1025px)'
+);

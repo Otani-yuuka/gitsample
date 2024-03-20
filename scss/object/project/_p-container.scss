@@ -1,0 +1,52 @@
+.p-container {
+    &--Takeout{
+    background-image: url('../../../img/three-burgers-on-brown-wooden-tray-between-white-ceramic-1841108.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    padding: 16px;
+    }
+
+    &--Eatin{
+        background-image: url('../../../img/473d814b175bd517b56eb309f2958725.jpg');
+        background-size: cover;
+        background-position: center;
+        margin: 20px;
+        padding: 16px;
+
+        }
+
+    &__content{
+        background-color: #FFFFFF;
+        width: 303px;
+        opacity: 0.8;
+        padding: 16px;
+        box-sizing: border-box;
+        margin-top: 16px;
+        position: relative;
+    }
+    
+        h2{
+            position: relative;
+            display: inline-block;
+          }
+          h2:before {
+            content: '';
+            position: absolute;
+            left: 15.5px;
+            bottom: -19px;/*線の上下位置*/
+            display: inline-block;
+            width: 33px;/*線の長さ*/
+            height: 4px;/*線の太さ*/
+            transform: translateX(-50%);/*位置調整*/
+            background-color: #FFFFFF;/*線の色*/
+          }
+
+    p {
+        margin-top: 8px;
+    }
+    &__title {
+        margin-bottom: 237px;
+    }
+
+}

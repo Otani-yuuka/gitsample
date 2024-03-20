@@ -1,3 +1,7 @@
+@use "../../foundation/global" as g;
+
 .c-title {
-    color: #707070;
+    color: g.$menu_text;
+    font-size: 40px;
+    margin-top: 43px;
 }

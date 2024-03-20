@@ -1,0 +1,43 @@
+.p-search {
+    display: flex;
+    align-items: center;
+    width: 334px;
+    height: 45px;
+    margin: 41px auto;
+
+    &__input {
+        width: 216px;
+        height: 46px;
+        font-weight: 700;
+        border-radius: 10px;
+        border: 1px solid #707070
+    }
+
+    &__button {
+            margin-left: 16px;
+            height: 46px;
+            width: 90px;
+            font-weight: 700;
+            background-image: linear-gradient(to bottom right, #DED8D3,#F2EDE9);
+            color: #707070;
+            border-radius: 10px;
+            border: 1px solid #707070
+        }
+
+        &__wrap {
+            display: inline-block; /* なくても大丈夫だけど、念の為 */
+            position: relative;    /* 親 */
+
+            &::before {
+                content: "";           /* 疑似要素に必須 */
+                width: 24px;           /* アイコンの横幅 */
+                height: 24px;          /* アイコンの高さ */
+                background: url(../../../img/search.png) no-repeat center center / auto 100%; /* 背景にアイコン画像を配置 */
+                display: inline-block; /* 高さを持たせるためにインラインブロック要素にする */
+                position: absolute;    /* 子 */
+                top: 12px;              
+                left: 9px;            
+          }
+        }
+          
+}

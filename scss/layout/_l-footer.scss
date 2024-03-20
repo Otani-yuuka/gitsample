@@ -1,0 +1,23 @@
+.l-footer {
+    position: relative;
+    background-image: url('../../img/uneune.png');
+    background-repeat: repeat;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 16px 0px;
+    filter:blur(0);
+
+    &__menu {
+        margin-bottom: 80px;
+    }
+
+    &__menu-separator {
+       font-weight: 400;
+    }
+
+    &__copylight {
+        font-size: 14px;
+    }
+
+}

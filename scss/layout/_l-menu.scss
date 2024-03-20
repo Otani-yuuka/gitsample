@@ -1,0 +1,21 @@
+.l-menu {
+    position: fixed;
+    overflow-y: scroll;
+    top: 0;
+    right: 0;
+    background-color: #F2EDE9;
+    width: 328px;
+    height: 100%;
+    transform: translate(328px);
+    transition: transform 0.3s;
+    padding-top: 32px;
+
+    &.active {
+        display: block;
+        z-index: 100;
+        transform: translateX(0);
+        transition: transform .3s;
+    }
+
+}
+

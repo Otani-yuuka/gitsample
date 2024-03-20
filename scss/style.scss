@@ -8,12 +8,19 @@
 
  //layout
 @use "layout/l-headar";
+@use "layout/l-footer";
+@use "layout/l-menu";
 
 //object
 //conmponent
- @use "object/component/c-title";
-
+ @use "../scss/object/comporent/c-title";
+ @use "../scss/object/comporent/c-flex";
+ @use "../scss/object/comporent/c-menu";
 //project
-
+@use "../scss/object/project/p-search";
+@use "../scss/object/project/p-thumbnail";
+@use "../scss/object/project/p-container";
+@use "../scss/object/project/p-access";
+@use "../scss/object/project/p-menu";
 //utility
- 
+@use "../scss/object/utility/u-backgroud";

@@ -7,18 +7,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/scss/foundation/_base.scss">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
     <div class="c-flex">
         <header class="l-header">
+            <div class="c-menu" id="js-menu">
+                <button>Menu</button>
+            </div>
             <h1 class="c-title">Hamburger</h1>
             <form class="p-search" action="#" method="get" >
                 <div class="p-search__wrap">
-                    <input class="c-input-search" type="search" name="search">
+                    <input class="c-input-search p-search__input" type="search" name="search">
                 </div>
-                <button class="c-button-search" type="submit" name="submit">検索</button>
+                <button class="c-button-search p-search__button" type="submit" name="submit">検索</button>
             </form>
         </header>
         <main class="l-main">
@@ -26,13 +29,13 @@
                 <h1 class="p-thumbnail__title">ダミーサイト</h1>
             </div>
             <div class="p-container">
-                <div class="p-container--Take Out">
+                <div class="p-container--Takeout">
                     <div class="p-container__title"> 
                         <h2>Take Out</h2><!--線がついてる-->
                     </div>
                     <div class="p-container__contents">
                         <div class="p-container__content">
-                            <h3>Take Out</h3>
+                            <h3>Take OUT</h3>
                                 <p>当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウト
                                     で利用できる商品を掲載しています当店のテイクアウトで利用できる商品を
                                     掲載しています当店のテイクアウトで利用できる商品を掲載しています当店
@@ -40,7 +43,7 @@
                                 </p>        
                         </div>
                         <div class="p-container__content">
-                            <h3>Take Out</h3>
+                            <h3>Take OUT</h3>
                                 <p>当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウト
                                     で利用できる商品を掲載しています当店のテイクアウトで利用できる商品を
                                     掲載しています当店のテイクアウトで利用できる商品を掲載しています当店
@@ -49,7 +52,7 @@
                         </div> 
                     </div>      
                 </div>
-                <div class="p-container--Eat In">
+                <div class="p-container--Eatin">
                     <div class="p-container__title">
                         <h2>Eat In</h2><!--線がついてる-->
                     </div> 
@@ -74,53 +77,67 @@
                 </div>
             </div>
             <article class="p-access">
-                <h2 class="p-access__title">見出しが入ります</h2>
-                <p class="p-access__text">
-                    テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-                </p>
+                    <div class="p-access__description">
+                        <h2 class="p-access__title">見出しが入ります</h2>
+                        <p class="p-access__text">
+                        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                        </p>
+                    </div>
             </article>
         </main>
     </div>
+    <div class="u-background"></div>
     <aside class="l-menu">
-        <div class="p-manu">
-            <div class="p-manu__container">
-                <a href="#"><p class="c-menu">Menu</p></a>
-                <a href="#"><p>バーガー</p></a>
-                <ul>
-                    <a href="#"><li>ハンバーガー</li></a>
-                    <a href="#"><li>チーズバーガー</li></a>
-                    <a href="#"><li>テリヤキバーガー</li></a>
-                    <a href="#"><li>アボカドバーガー</li></a>
-                    <a href="#"><li>フィッシュバーガー</li></a>
-                    <a href="#"><li>ベーコンバーガー</li></a>
-                    <a href="#"><li>チキンバーガー</li></a>
-                </ul>
-                <a href="#"><p>サイド</p></a>
-                <ul>
-                    <a href="#"><li>ポテト</li></a>
-                    <a href="#"><li>サラダ</li></a>
-                    <a href="#"><li>ナゲット</li></a>
-                    <a href="#"><li>コーン</li></a>
-                </ul>
-                <a href="#"><p>ドリンク</p></a>
-                <ul>
-                    <a href="#"><li>コーラ</li></a>
-                    <a href="#"><li>ファンタ</li></a>
-                    <a href="#"><li>オレンジ</li></a>
-                    <a href="#"><li>アップル</li></a>
-                    <a href="#"><li>紅茶（Ice/Hot）</li></a>
-                    <a href="#"><li>コーヒー（Ice/Hot）</li></a>                
-                </ul>
+        <div class="p-menu">
+
+            <span class="c-cross p-menu__cross" id="js-close"></span>
+
+            <div class="p-menu__container">
+
+                <nav class="c-menu__g">
+                    <a href="#"><h4>バーガー</h4></a>
+                    <ul>
+                        <a href="#"><li>ハンバーガー</li></a>
+                        <a href="#"><li>チーズバーガー</li></a>
+                        <a href="#"><li>テリヤキバーガー</li></a>
+                        <a href="#"><li>アボカドバーガー</li></a>
+                        <a href="#"><li>フィッシュバーガー</li></a>
+                        <a href="#"><li>ベーコンバーガー</li></a>
+                        <a href="#"><li>チキンバーガー</li></a>
+                    </ul>
+                    <a href="#"><h4>サイド</h4></a>
+                    <ul>
+                        <a href="#"><li>ポテト</li></a>
+                        <a href="#"><li>サラダ</li></a>
+                        <a href="#"><li>ナゲット</li></a>
+                        <a href="#"><li>コーン</li></a>
+                    </ul>
+                    <a href="#"><h4>ドリンク</h4></a>
+                    <ul>
+                        <a href="#"><li>コーラ</li></a>
+                        <a href="#"><li>ファンタ</li></a>
+                        <a href="#"><li>オレンジ</li></a>
+                        <a href="#"><li>アップル</li></a>
+                        <a href="#"><li>紅茶（Ice/Hot）</li></a>
+                        <a href="#"><li>コーヒー（Ice/Hot）</li></a>                
+                    </ul>
+                </nav>
             </div>
         </div>
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script type='text/javascript' src='js/sidebar.js'></script>
+
     </aside>
 
     <footer>
         <div class="l-footer">
+            <div class="l-footer__menu">
                 <a href="#">ショップ情報</a>
+                <span class="l-footer__menu-separator">｜</span> 
                 <a href="#">ヒストリー</a>
+            </div>
+            <p class="l-footer__copylight">Copyright: RaiseTech</p>
         </div>
-        <p class="l-footer__copylight">Copyright: RaiseTech</p>
     </footer>
 </body>
 </html>
